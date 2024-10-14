@@ -1,0 +1,23 @@
+name: mood_front
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0-149.3.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  multi_image_layout: ^0.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background_circle.png
+    - assets/mockup.png
